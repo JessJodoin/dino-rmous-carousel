@@ -1,13 +1,23 @@
+img {
+  opacity: 0;
+  transition: all .4s ease-in-out;
+}
+
 .btn {
   background-color: rgba( 255 , 255 , 255 , .8);
   color: #000;
   border: none;
+  border-radius: 12px;
 }
 
 .previous {
-  left: 12px;
+  left: 15px;
 }
 
 .next {
-  right: 12px;
+  right: 15px;
+}
+
+.current {
+  opacity: 1;
 }
